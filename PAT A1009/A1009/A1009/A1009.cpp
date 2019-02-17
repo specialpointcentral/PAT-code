@@ -1,0 +1,57 @@
+﻿// A1009.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+//
+
+#include "pch.h"
+#include <cstdio>
+using namespace std;
+int main()
+{
+	int n;
+	double p[1001] = { 0 }, end[2001] = { 0 };
+	int max_first = 0; //第一个最大次数
+	int max_second = 0; //第二个最大次数
+	scanf("%d", &n);
+	while (n--) {
+		int k;
+		double temp;
+		scanf("%d %lf", &k, &temp);
+		p[k] = temp;
+		if (max_first < k) max_first = k;
+	}
+	scanf("%d", &n);
+	while (n--) {
+		int k;
+		double temp;
+		scanf("%d %lf", &k, &temp);
+		if (max_second < k) max_second = k;
+		for (int i = 0; i <= max_first; ++i) {
+			if (p[i] != 0) {
+				end[i + k] += temp * p[i];
+			}
+		}
+	}
+	int count = 0;
+	for (int i = max_first + max_second; i >= 0; --i) {
+		if (end[i] != 0) {
+			++count;
+		}
+	}
+	printf("%d", count);
+	for (int i = max_first + max_second; i >= 0; --i) {
+		if (end[i] != 0) {
+			printf(" %d %.1f", i, end[i]);
+		}
+	}
+
+}
+
+// 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
+// 调试程序: F5 或调试 >“开始调试”菜单
+
+// 入门提示: 
+//   1. 使用解决方案资源管理器窗口添加/管理文件
+//   2. 使用团队资源管理器窗口连接到源代码管理
+//   3. 使用输出窗口查看生成输出和其他消息
+//   4. 使用错误列表窗口查看错误
+//   5. 转到“项目”>“添加新项”以创建新的代码文件，或转到“项目”>“添加现有项”以将现有代码文件添加到项目
+//   6. 将来，若要再次打开此项目，请转到“文件”>“打开”>“项目”并选择 .sln 文件
