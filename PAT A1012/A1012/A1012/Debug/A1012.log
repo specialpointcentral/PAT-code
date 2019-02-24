@@ -1,7 +1,0 @@
-﻿  pch.cpp
-  A1012.cpp
-d:\学习\acm\练习源码\pat a1012\a1012\a1012\a1012.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
-d:\学习\acm\练习源码\pat a1012\a1012\a1012\a1012.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
-d:\学习\acm\练习源码\pat a1012\a1012\a1012\a1012.cpp(68): warning C4018: “<”: 有符号/无符号不匹配
-d:\学习\acm\练习源码\pat a1012\a1012\a1012\a1012.cpp(81): warning C4018: “<”: 有符号/无符号不匹配
-  A1012.vcxproj -> D:\学习\ACM\练习源码\PAT A1012\A1012\Debug\A1012.exe

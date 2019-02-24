@@ -1,6 +1,0 @@
-﻿  B1012.cpp
-d:\学习\acm\练习源码\pat b1012\b1012\b1012\b1012.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
-d:\学习\acm\练习源码\pat b1012\b1012\b1012\b1012.cpp(17): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
-  B1012.vcxproj -> D:\学习\ACM\练习源码\PAT B1012\B1012\Debug\B1012.exe

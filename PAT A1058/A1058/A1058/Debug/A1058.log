@@ -1,6 +1,0 @@
-﻿  A1058.cpp
-d:\学习\acm\练习源码\pat a1058\a1058\a1058\a1058.cpp(11): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
-d:\学习\acm\练习源码\pat a1058\a1058\a1058\a1058.cpp(13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 参见“scanf”的声明
-  A1058.vcxproj -> D:\学习\ACM\练习源码\PAT A1058\A1058\Debug\A1058.exe
