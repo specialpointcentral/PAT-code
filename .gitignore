@@ -56,3 +56,6 @@ $RECYCLE.BIN/
 
 # VisualStudioCode
 .vscode
+
+*/Debug/
+*/X64/
